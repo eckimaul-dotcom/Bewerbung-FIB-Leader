@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Director Of Press - WEAZEL NEWS</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="landing">
+<div class="landing-content">
+<h1>DIRECTOR OF PRESS</h1>
+<h2>WEAZEL NEWS</h2>
+<p>Eingereicht von <span id="userName">DEIN NAME</span> | ID #<span id="userId">00000</span></p>
+<button id="openBtn">AKTE ÖFFNEN</button>
+</div>
+</section>
+
+<section id="akte">
+<nav>
+<a href="#identifikation">Identifikation</a>
+<a href="#geschichte">Geschichte</a>
+<a href="#profil">Profil</a>
+<a href="#" id="closeBtn" class="close-btn">SCHLIESSEN</a>
+</nav>
+
+<div class="container">
+<section id="identifikation" class="card">
+<h2>Identifikation</h2>
+<div class="grid">
+<div>
+<p><b>Name:</b> <span id="fullName">Max Mustermann</span></p>
+<p><b>Alter:</b> <span id="age">25</span></p>
+<p><b>Discord:</b> <span id="discord">Max#0001</span></p>
+<p><b>Abteilung:</b> <span id="department">Weazel News</span></p>
+<p><b>Position:</b> <span id="position">Director of Press</span></p>
+</div>
+<div>
+<img src="assets/profile.jpg" alt="Profilbild" id="profileImg">
+</div>
+</div>
+</section>
+
+<section id="geschichte" class="card">
+<h2>Geschichte</h2>
+<p id="historyText">Hier kommt deine Geschichte hinein. Teile deinen beruflichen Werdegang und deine Erfahrungen bei Weazel News mit.</p>
+</section>
+
+<section id="profil" class="card">
+<h2>Profil & Fähigkeiten</h2>
+<p id="profileText">Hier kommt dein Profil hinein. Beschreibe deine Stärken, Fähigkeiten und was dich als Director of Press auszeichnet.</p>
+<div id="skills" class="skills-container">
+<!-- Skills werden dynamisch hinzugefügt -->
+</div>
+</section>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
